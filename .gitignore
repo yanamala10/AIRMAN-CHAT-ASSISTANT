@@ -1,0 +1,17 @@
+# Python Environment (Excludes the heavy 252MB torch_cpu.dll)
+venv/
+.env
+__pycache__/
+*.py[cod]
+
+# Dataset Folder (Excludes the 166MB Meteorology PDF)
+AI_ML Technical Assessment/
+
+# Local Vector Store (No need to push these as they are generated locally)
+docs.index
+metadata.pkl
+vectorstore/
+
+# Evaluation Outputs
+evaluation_report.json
+evaluation_results.json
